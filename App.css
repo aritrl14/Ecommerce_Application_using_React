@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.singleProduct {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.singleProduct img {
+  width: 100%;
+}
+
+.cart {
+  padding: 20px;
+}
+
+.cartItem {
+  display: flex;
+  margin: 10px 0;
+}
+
+.cartItem img {
+  width: 100px;
+  margin-right: 20px;
+}
